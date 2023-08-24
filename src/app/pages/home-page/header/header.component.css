@@ -1,0 +1,34 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+}
+
+header > .logo {
+    max-width: 100%;
+    height: 2rem;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+li > a{
+    text-decoration: none;
+    color: #b7b7b7;
+    transition: ease-in-out 0.2s;
+
+}
+
+header > .icon {
+    max-width: 100%;
+    height: 2rem;
+    border-radius: 50px;
+}
+
+li > a:hover{
+    color: #000;
+}
