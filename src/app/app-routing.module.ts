@@ -11,6 +11,10 @@ const routes: Routes = [
   {
     path: 'theme/:theme',
     component: ThemePageComponent
+  },
+  {
+    path: '**',
+    redirectTo: ''
   }
 ];
 
