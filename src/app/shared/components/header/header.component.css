@@ -12,6 +12,7 @@ a > .logo {
 
 nav > ul {
     display: flex;
+    align-items: center;
     list-style: none;
     gap: 1rem;
 }
@@ -31,4 +32,8 @@ header > .icon {
 
 li > a:hover{
     color: #000;
+}
+
+.active{
+    font-size: 1.25rem;
 }

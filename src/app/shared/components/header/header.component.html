@@ -4,7 +4,7 @@
     
     <nav>
         <ul>
-            <li *ngFor="let theme of themes"><a [routerLink]="['theme', theme]">{{theme}}</a></li>
+            <li *ngFor="let theme of themes"><a [routerLink]="['theme', theme]" [routerLinkActive]="['active']">{{theme}}</a></li>
         </ul>
     </nav>
 
