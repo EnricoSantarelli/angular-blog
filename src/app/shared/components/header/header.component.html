@@ -1,0 +1,12 @@
+
+<header>
+    <a [routerLink]="['']"><img class="logo" src="../../../../assets/logo.png" alt="Logo do blog"></a>
+    
+    <nav>
+        <ul>
+            <li *ngFor="let theme of themes"><a [routerLink]="['theme', theme]">{{theme}}</a></li>
+        </ul>
+    </nav>
+
+    <img class="icon" src="../../../../assets/icon.png" alt="Ícone do usuário">
+</header>

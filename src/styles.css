@@ -5,3 +5,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+app-root{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+theme-page{
+    flex-grow: 1;
+    display: flex;
+
+}
+
+home-page {
+    flex-grow: 1;
+    display: flex;
+
+}
